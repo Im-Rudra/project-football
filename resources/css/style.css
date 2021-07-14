@@ -110,3 +110,72 @@ nav {
     display: flex;
 }
 /* ========== HEADER END ========== */
+
+
+/* ========== HERO SECTION START ========== */
+.hero {
+    background: #2d25a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-info, .hero-img {
+    width: 40%;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img .stricker {
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-img .football {
+    display: inline-block;
+    width: 9%;
+    position: absolute;
+    top: 15.2%;
+    left: 3%;
+    transition: all 0.6s ease-in-out;
+}
+
+.hero-img:hover .stricker {
+    transform: scale(1.05);
+}
+
+.hero-img:hover .football {
+    transform: scale(1.1) translate(10px, 20px) rotate(180deg);
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-info h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.hero-btn i {
+    margin-left: 8px;
+}
+/* ========== HERO SECTION END ========== */
