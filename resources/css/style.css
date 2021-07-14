@@ -179,3 +179,43 @@ nav {
     margin-left: 8px;
 }
 /* ========== HERO SECTION END ========== */
+
+
+/* ========== PLAYERS SECTION START ========== */
+.players {
+    display: flex;
+    justify-content: center;
+}
+
+.players-body {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-gap: 27px 30px;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.player {
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
+}
+
+.player-img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.player-name {
+    margin: 16px 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+
+.player-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+/* ========== PLAYERS SECTION END ========== */
