@@ -281,3 +281,59 @@ nav {
     margin-left: 8px;
 }
 /* ========== HIGHLIGHTS SECTION END ========== */
+
+
+/* ========== VS SECTION START ========== */
+.vs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.vs h1 {
+    color: #221f1f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.vs h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.vs-body {
+    max-width: 600px;
+    width: 100%;
+}
+
+.team-names {
+    background: #333333;
+    color: white;
+    padding: 16px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background: #e7e7e7;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.team img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/* ========== VS SECTION END ========== */
