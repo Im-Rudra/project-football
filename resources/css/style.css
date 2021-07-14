@@ -414,3 +414,35 @@ nav {
     justify-content: center;
 }
 /* ========== NEWSLETTER END ========== */
+
+
+/* ========== FOOTER START ========== */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 33%;
+}
+
+.social-icons a {
+    margin: 0 7px 20px;
+}
+
+.social-icons a i {
+    color: #6C6C6C;   
+}
+
+.copyright {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ========== FOOTER END ========== */
