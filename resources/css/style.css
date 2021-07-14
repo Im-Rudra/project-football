@@ -219,3 +219,65 @@ nav {
     color: #6C6C6C;
 }
 /* ========== PLAYERS SECTION END ========== */
+
+
+/* ========== HIGHLIGHTS SECTION START ========== */
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 95px 0 140px;
+}
+
+.highlights-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight-info, .highlight-img {
+    width: 40%;
+}
+
+.highlight-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.highlight-img .stricker {
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.highlight-img:hover .stricker {
+    transform: scale(1.05);
+}
+
+.highlight-info h1 {
+    color: #000;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.highlight-info p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.highlight-btn {
+    display: flex;
+    align-items: center;
+}
+
+.highlight-btn i {
+    margin-left: 8px;
+}
+/* ========== HIGHLIGHTS SECTION END ========== */
