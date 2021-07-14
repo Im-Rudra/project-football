@@ -1,0 +1,112 @@
+/* ========== UTILITY CSS START ========== */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn a {
+    color: white;
+    padding: 10px 24px;
+    background: #E02C6D;
+    border-radius: 6px;
+    transition: all 0.2s ease-in;
+}
+
+.btn a:hover {
+    background: #ec2a71;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    transform: translateY(-1px);
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 40px;
+}
+/* ========== UTILITY CSS END ========== */
+
+
+/* ========== HEADER START ========== */
+header {
+    background: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+
+nav {
+    position: static;
+    display: flex;
+    background: transparent;
+    padding: 5px 10px;
+}
+
+.header-body nav a {
+    position: relative;
+    margin-right: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 2px;
+}
+
+.header-body nav a::after {
+    content: '';
+    background: white;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in;
+}
+
+.header-body nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn a i {
+    margin-right: 8px;
+}
+
+.toogle-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.toogle-btn img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto auto;
+}
+
+.toogle-btn img:hover nav {
+    display: flex;
+}
+/* ========== HEADER END ========== */
