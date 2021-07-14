@@ -430,6 +430,8 @@ footer {
 
 .footer-logo img {
     width: 33%;
+    display: block;
+    margin: 0 auto;
 }
 
 .social-icons a {
